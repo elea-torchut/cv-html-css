@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Dosis';
+    src: url('./fonts/Dosis-VariableFont_wght.ttf');
+    src: url('FileName.eot?#iefix') format('embedded-opentype');
+}
+
+body {
+    font-family: "Dosis", Verdana;
+    font-size: 1.3rem;
+    background: url(./images/bg.png) no-repeat center/cover;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 0 3px 5px rgba(20, 64, 85, 0.571);
+    font-family: "Dosis", Verdana;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: "Dosis", Verdana;
+    font-size: 2.5rem;
+}
+
+.block1 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.block2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    min-height: 250px;
+    min-width: 250px;
+}
+
+.subheading1 li {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.subheading2 li {
+    list-style: none;
+
+}
+
+.subheading3 li {
+    list-style: none;
+
+}
+
+.subheading4 li {
+    list-style: none;
+
+}
+
+.Subheading ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Subheading li {
+    list-style: none;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Subheading img {
+    width: 100%;
+    height: 100%;
+}
+
+footer a{
+    cursor: pointer;
+}
